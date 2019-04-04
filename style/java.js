@@ -24,7 +24,7 @@ angular.module("angularApp", [])
    
 
      // $scope.namelist = namelist;
-    //    $scope.rowLimits = 5;
+       $scope.rowLimits = "10 selected";
      // $scope.sortColumn = "productname";
 
 
