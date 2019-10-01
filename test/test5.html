@@ -158,11 +158,11 @@ export class RegisterComponent implements OnInit {
       city: ['', Validators.required],
       country: ['', Validators.required],
       email: ['', Validators.required],
+      password: ['', Validators.required email: ['', Validators.required],
       password: ['', Validators.required]
     })
   }
 
-  
   get formControls() { return this.registerForm.controls }
 
 
